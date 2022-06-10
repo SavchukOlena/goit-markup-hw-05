@@ -807,7 +807,8 @@ address {
 
 }
 
-.gallery-link:hover .service-descr {
+.gallery-link:hover .service-descr,
+.gallery-link:focus .service-descr {
   transform: translateY(0);
   
 }
