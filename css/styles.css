@@ -10,6 +10,7 @@
 
 /* Body Common Styles */
 body {
+  padding-top: 80px;
   background-color: var(--main-bgd-color);
   color: var(--text-color);
   font-family: Roboto, sans-serif;
@@ -84,7 +85,11 @@ img {
 }
 
 .header {
-  
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 80px;
+  top: 0;
   background-color: var(--main-bgd-color);
   border-bottom: 1px solid #ECECEC;
 }
